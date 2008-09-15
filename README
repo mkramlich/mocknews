@@ -37,7 +37,7 @@ From within a Python app via the module API:
 
     import mocknews
 
-    # make it believe exactly like command-line default invocation:
+    # make it behave exactly like command-line default invocation:
     mocknews.main()
 
     # without calling main() you could instead generate and return headlines:
