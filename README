@@ -1,0 +1,71 @@
+README
+
+MockNews creates fake news headlines, stories and world events.
+
+It is written in Python and exposes a Python API but you do not need to know Python to use it. It supports invocation from the command-line as a CLI tool, or for use as a batch process.
+
+Requires only Python 2.5 (or greater 2.x).
+
+HOW TO USE
+
+From command-line:
+
+    ./mocknews.py
+
+It will print out the Top News for 2 days, showing only the headlines.
+Here's an example:
+
+    Top News
+
+    Day 1
+
+    Greece Declares War On Portugal
+    Earthquake Rocks Las Vegas
+    Train Derailment Near Berlin
+    Shareholder Lawsuit Filed Against TrollTech
+
+    Day 2
+
+    Private Jets Business Booming
+    Luxembourg Elects New Leader
+    Plane Crash Near New Orleans
+    Sting Weds Oprah
+
+Your results may vary. Please consult your doctor. Not responsible for lost or stolen items. Remain vigilant at all times. Your waiter will be with your shortly. Why no, in fact, these are not the pants I was looking for, but thank you anyway, madam.
+
+From within a Python app via the module API:
+
+    import mocknews
+
+    # make it believe exactly like command-line default invocation:
+    mocknews.main()
+
+    # without calling main() you could instead generate and return headlines:
+    headlines = mocknews.headlines()
+    # The returned value is a dict mapping from a tock (a time segment, defaults to 1 day) to a list of headlines associated with that tock. Each headline is a string. The number of tock entries is whatever you specified as the optional sole int param to the headlines() call, with a default of 2 tocks.
+    # ... here do something with the headlines in your app...
+
+You can also alter the content of the files in the data directory in order to customize MockNews for your application.
+
+If you have any questions, suggestions, bug reports or desired features, please feel free to let me know.
+
+
+thanks,
+
+Mike Kramlich
+groglogic@gmail.com
+
+-------------
+
+Some other projects of mine are hosted on GitHub including StoryTory, GenCV and Empyreal.
+
+More info about me and my work can be found at the links below:
+
+GitHub:            http://github.com/mkramlich
+LinkedIn:          http://www.linkedin.com/pub/3/ab7/51a
+Elance:            http://www.elance.com/php/profile/main/eolproviderprofile.php?view_person=zodlogic
+ZodLogic Games:    http://zodlogic.webfactional.com/
+  (my game biz)
+startup blog:      http://groglogic.blogspot.com/
+serious blog:      http://grogdelta.blogspot.com/
+creative blog:     http://grograma.blogspot.com/

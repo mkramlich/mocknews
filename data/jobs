@@ -1,0 +1,81 @@
+accountant,3000,accounting=10,math=5,business=5
+aerospace engineer,5000,physics=20,math=20,engineering=15
+architect,10000,math=5,physics=5,engineering=5,drawing=5,art=5
+assassin,10000,kung fu=50,fighting=10,handguns=5,observation=5,stealth,military tactics=5,deepcalm=5
+astronaut,5000,engineering=15,brainstorming=20,math=15,physics=15,logic=10,deepcalm=10
+babysitter,500,child mgmt=10,cooking=2,baking=2,firstaid=2
+baker,2000,baking=5,food=5
+banker,15000,economics=20,accounting=15,math=10,stockmarket=15,history=5
+baseball player,100000,baseball=50,sports=10
+basketball player,100000,basketball=50,sports=10
+bodyguard,1000,handguns=5,fighting=5,observation=5
+boxer,1000,boxing=20,sports=5,fighting=10
+car mechanic,2000,automotive repair=15,electronics=5
+cheerleader,3000,dancing=5,stripping=5
+chef,4000,cooking=20,baking=20,food=10
+chemist,5000,chemistry=20,physics=15,math=10,biology=10
+chiropractor,3000,medicine=10,satanic cults=2
+civil engineer,5000,engineering=15,explosives=5,physics=15,math=10
+clerk,2000,paperwork=5
+clown,1000,juggling=2,stealth,satanic cults
+composer,4000,music=20
+cook,2000,cooking=10,baking=10,food=5
+cop,3000,handguns=5,criminal law=10,fighting=5,law=5,observation=5,leadership=5
+dancer,1500,dancing=20
+dentist,4000,medicine=10,satanic cults=5,sex=2
+diplomat,5000,charm=10,public speaking=10,writing=10,history=20,politics=10,observation=10,lying=5
+doctor,15000,medicine=25,surgery=10,firstaid=10,biology=10,chemistry=10
+electrical engineer,5000,engineering=10,math=10,physics=15,electronics=20
+electrician,3000,electronics=10,math=5,logic=5
+executive,100000,leadership=20,public speaking=20,lying=20,charm=20,personal dressing=10,business=10,politics=20
+fashion designer,4000,fashion design=15,personal dressing=20
+film actor,50000,acting=30
+film critic,2000,film theory=10,writing=5
+film director,50000,cinematography=10,storytelling=5,film theory=10,photography=10,film production=15
+fireman,4000,firefighting=10,firstaid=5
+football player,100000,football=50,sports=10
+game designer,500,game design=10,brainstorming=10,math=2,logic=5,art=2
+general,5000,military tactics=15,military strategy=20,handguns=5,fighting=5,public speaking=10,charm=15,history=15,leadership=20
+gigolo,5000,seduction=15,sex=10,personal dressing=15,charm=15,dancing=10
+hockey player,100000,hockey=50,sports=10
+inventor,4000,design=10,engineering=10,math=10,brainstorming=10,logic=10,electronics=5,chemistry=5
+judge,7000,law=25,writing=15,history=15,criminal law=20,civil law=20,politics=10
+lawyer,20000,law=15,lying=20,public speaking=20,writing=20,history=10
+manager,3000,leadership=10,business=10,politics=10
+missionary,1000,religion=10,firstaid=5,teaching=10,public speaking=5,charm=10
+model,10000,personal dressing=5
+movie star,200000,charm=50,acting=25,personal dressing=10,seduction=10
+musician,500,music=10
+novelist,2000,writing=20,brainstorming=5,storytelling=10
+nun,2000,religion=15
+nurse,4000,medicine=15,surgery=5,firstaid=10,biology=5,chemistry=5
+painter,500,painting=15,art=10,drawing=5
+photographer,500,photography=15
+physical therapist,2000,medicine=5,sports=5
+physicist,5000,physics=25,math=20,engineering=15,chemistry=15
+pimp,4000,leadership=5,charm=10,fighting=5,handguns=2
+plumber,3000,plumbing=10
+politician,5000,public speaking=10,lying=10,politics=20,charm=10
+pop star,100000,singing=25,music=20,dancing=10,personal dressing=10,seduction=10
+porn star,10000,sex=5,acting=10
+priest,2000,religion=20,public speaking=10,charm=5
+professor,5000,history=10,writing=10,public speaking=10,teaching=10
+prostitute,8000,seduction=5,sex=10,acting=5
+salesman,3000,charm=10,public speaking=5,lying=10
+screenwriter,5000,film theory=10,storytelling=10,writing=10,cinematography=5
+sculptor,500,sculpture=10,art=5
+security guard,2000,handguns=2,fighting=2,observation=5
+sketch artist,1000,drawing=5
+software engineer,6000,programming=25,math=5,logic=10
+soldier,2000,handguns=10,fighting=10,military tactics=5,wilderness survival=5
+songwriter,3000,songwriting=20,singing=5,music=15
+spokesman,3000,public speaking=10,charm=10,lying=10,writing=5
+spy,10000,charm=20,stealth=10,handguns=10,fighting=10,history=10,electronics=10,explosives=10,kungfu=10,observation=15
+stage actor,2000,acting=20
+stock broker,5000,stockmarket=10,business=5,math=5
+stripper,5000,seduction=5,stripping=10,dancing=5
+surgeon,15000,medicine=40,surgery=30,firstaid=10,biology=10,chemistry=10
+teacher,2000,teaching=15,child mgmt=5,history=5,math=5,logic=5,writing=5
+tv actor,10000,acting=25
+veterinarian,5000,medicine=15,surgery=10,animals=10,firstaid=5,biology=10
+zookeeper,3000,animals=5,medicine=10,biology=10

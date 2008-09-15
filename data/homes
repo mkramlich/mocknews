@@ -1,0 +1,50 @@
+homeless shelter,0,0
+igloo,0,0
+tent,20,1
+treehouse,100,5
+cave,10,10
+shack,100,5
+motel room,20,1000
+hotel room,30,2500
+studio,1200,500
+apartment,3000,800
+condo,50000,700
+loft,100000,600
+house,100000,600
+yacht,250000,1000
+ranch,300000,1000
+cavebase,500000,1000
+mansion,500000,2000
+penthouse,1000000,10000
+lair,2000000,5000
+castle,10000000,5000
+island,20000000,20000
+underseabase,30000000,100000
+moonbase,100000000,500000
+mobile home,1,1
+warehouse,1,1
+haunted house,1,1
+pit,1,1
+big cardboard box,1,1
+luxury tent,1,1
+converted tanker,1,1
+townhome,1,1
+dormitory,1,1
+halfway house,1,1
+mental institution,1,1
+min-security prison,1,1
+undermountain vault,1,1
+big house,1,1
+tiny house,1,1
+lighthouse,1,1
+barn,1,1
+small office,1,1
+large office,1,1
+parent's basement,1,1
+parent's attic,1,1
+abandoned building,1,1
+ice castle,1,1
+mountain cabin,1,1
+volcano base,1,1
+sewers,1,1
+subway system,1,1

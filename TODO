@@ -1,0 +1,110 @@
+TODO
+
+add story body generation in addition to headlines
+    most stories based on a "real" world event
+    not all stories, some may be frivolous, or opinion pieces, or "how to articles"
+    something like:
+    class Story:
+        optional: event (instance of NewsEvent)
+        headline
+        body text
+
+add notion of a media outlet, like a newspaper or TV news channel
+    the outlet decides which of the news events it will report on
+    and what "spin" or template to use to render that story
+    example: Fox News more likely to overlook events critical of Republicans, and more likely to spin negatively against Democratic Party, liberals, non-whites, feminists, gays, atheists, non-christians, intellectuals, scientists, artists, professors, etc. 
+    media outlets: Fox News, New York Times, The Economist, Cosmopolitan, People, Scientific American, Hustler, Huffington Post
+
+API way to add app-specific NewsEvent subclasses
+
+-------------------
+
+Events and Stories:
+
+
+blizzard in (blizzard-prone city)
+
+scientists warn of global warming
+new species of (animal) discovered in (nation)
+
+(dangerous animal) escapes from (city) zoo, mauls (qty)
+
+(cars-field company) Recalls (large qty) Vehicles
+(cars-field company) Introduces New Concept Car
+
+forecast for something (weather, economy) is good/bad
+
+(nation) leader resigns
+widespread election fraud reported in (nation)
+(country) sends envoy to (country)
+(nation1) leader visits (nation2)
+leader of (country) resigns
+government of (country) collapses, civil war breaks out in (country)
+famine in (famine-prone african nation)
+civil war erupts in (civil war-prone nation)
+military coup in (country)
+(region) peace talks start
+sex scandal rocks (nation)
+
+polls show that (percentage) of USA believes in God
+
+more hours spent (doing something) per week than (doing something else)
+
+Cosmo stories:
+    how to please your man in bed
+    (qty) ways to please your man
+    (qty) great eating tips
+    the latest fall fashions
+    is it him or is it me?
+    how to change your man
+    how to not be the other woman
+
+(athlete) sets new world record in (sport)
+shooting rampagge leaves (qty) dead in (city)
+(state) passes amendment to (whatever: gay marriage, ban cell phones in cars, etc)
+settlement reached in (some civil case) case
+serial killer likely operating in (state), says authorities
+
+(politician) indicted
+(politician) pledges to cut taxes [by (percent) percent]
+(politician) changes stance on (some issue)
+polls show (politican) (slightly/significantly) ahead in (senate/presidential/governship) race
+congress approves (somebody) for supreme court
+
+jurors picked in (some famous trial) trial
+new book by (famous author)
+new movie by (famous director)
+
+(famous band) concert in (city) draws (large crowd size number)
+
+stocks (dip/tank/fall) on rumors of (bad thing, like recession or company bankruptcy or oil price rise or war in middle east)
+
+street riots in (city)
+crowds chant "Death to USA!" in (muslim middle-east nation)
+(nation) approves arms deal with (nation)
+polls indicate that most hated nation is (nation)
+polls indicate that most liked nation is (nation)
+
+Fox News: Obama Supported Sex Ed in Kindegarten
+NYT: Obama Backed Age-Appropriate Education in Illinois to Combat Molestation
+Fox News: Crowds Cheer as Palin Speech Re-Iterates Her Opposition to Bridge to Nowhere
+NYT: Despite Recent Claims by Palin, The Well-Documented Fact is She Supported Bridge to Nowhere
+
+(city) man claims spotted (bigfoot | UFO)
+(city) woman claims she spoke with Jesus Last Week
+(city) woman claims she slept with Elvis Last Week
+(man|woman) finds Virgin Mary image in (silly place)
+New fall TV line-up looks (great|funny|hot)
+This Season's Must-See TV
+The Controversial New Book by (author)
+Are Children Becoming Too Young?
+What God Doesn't Want You To Know
+The Most Embarrasing Objects Found Inside the Human Body
+Ann Coulter or Michelle Malkin: Which is More of an Evil Fembot?
+Ann Coulter and Michelle Malkin: How One Night Alone With the Right Man Could Change Both Forever
+
+example of a half-silly, half-frighteningly-realistic story:
+    Headline:
+        US President Announces Nat'l Guard Deployment to (nation)
+    Story:
+    The White House announced today that the US National Guard would be deployed to (nation) in the coming months, with Pres. Bush saying, "It's the best way to guard our nation. That is why they are called National Guard. To guard our nation. Against terrorists. Terrorists who hate our freedom. But we love our freedom. That is why we must go to (nation). To guard our nation there and to protect our freedom which we so rightly love. Despite what liberals tell you, the guard does not need to actually be here at home within the borders of our great nation to guard it. We can guard it adequately on the far side of the planet, because we have computers, and tech-gnol-ogy, and advanced systems. Systems that are advanced using technology. But the most advanced technology is freedom. That is why we love it. And that is why I'm hereby declaring this deployment overseas today as Operation Freedom. Because our soldiers mission will be to secure freedom. For all of us. For our children. For our future. For our children's future. And the future of their children. And for freedom, right now, even before the future. Freedom here at home. Because we love our homes, and we have the freedom to love it, as our forefathers intended in the Consti-shtu- uh, the Conshtuti- er, the Consti-tu-shun. Thank you, good night, and God bless America. Amen."
